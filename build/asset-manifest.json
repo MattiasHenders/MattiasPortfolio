@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3a52fd56.css",
+    "main.js": "/static/js/main.2f29c85f.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/avatar.png": "/static/media/avatar.f19931e079aabac397f9.png",
+    "static/media/voip.jpg": "/static/media/voip.b16717ed04340b8b3553.jpg",
+    "static/media/triumf.png": "/static/media/triumf.1beacca50bec1561de46.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.ab0e4f243959159c3214.jpg",
+    "static/media/mattiasResume.pdf": "/static/media/mattiasResume.899a95567243c0ee5e30.pdf",
+    "static/media/plentyOfPhish.png": "/static/media/plentyOfPhish.1f88c2b4b5efd48b9bf3.png",
+    "static/media/springOut.jpg": "/static/media/springOut.5375af42ebe9555c1f15.jpg",
+    "static/media/clancys.png": "/static/media/clancys.8c31b232bca90f45e260.png",
+    "static/media/home-main.svg": "/static/media/home-main.1d7be1e7230107c030bf8f35a3e7df54.svg",
+    "static/media/about.svg": "/static/media/about.8e93e4a0cf2cf4f1489345a5ff74a9ce.svg",
+    "static/media/bcit.png": "/static/media/bcit.25dc08fe2d45c49cdec6.png",
+    "static/media/pre.svg": "/static/media/pre.909cf5d621ea679e0019.svg",
+    "index.html": "/index.html",
+    "main.3a52fd56.css.map": "/static/css/main.3a52fd56.css.map",
+    "main.2f29c85f.js.map": "/static/js/main.2f29c85f.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a52fd56.css",
+    "static/js/main.2f29c85f.js"
+  ]
+}
