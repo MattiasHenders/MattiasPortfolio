@@ -37,7 +37,15 @@ module.exports = ({ mode } = { mode: "production" }) => {
                     ]
                 },
                 {
-                    test: /\.(png|jpg|gif|pdf)$/i,
+                    test: /\.(jpeg|jpg|png|webp)$/i,
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]?[hash]',
+                            outputPath: 'assets/'
+                        }
+                },
+                {
+                    test: /\.(gif|pdf)$/i,
                     use: {
                         loader: "url-loader",
                         options: {
@@ -48,7 +56,14 @@ module.exports = ({ mode } = { mode: "production" }) => {
                 },
                 {
                     test: /\.svg$/,
-                    use: ["@svgr/webpack"]
+                    use: [
+                        {
+                            loader: 'svg-url-loader',
+                            options: {
+                                limit: 10000,
+                            },
+                        },
+                    ],
                 },
                 {
                     test: /\.(eot|otf|ttf|woff|woff2)$/,
@@ -74,7 +89,7 @@ module.exports = ({ mode } = { mode: "production" }) => {
                     isProduction ? "production" : "development"
                 )
             }),
-            new webpack.HotModuleReplacementPlugin()
+            new webpack.HotModuleReplacementPlugin(),
         ].filter(Boolean),
         optimization: {
             minimize: isProduction,

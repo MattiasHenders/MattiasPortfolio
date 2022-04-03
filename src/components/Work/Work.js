@@ -5,9 +5,9 @@ import Techstack from "./Techstack";
 import Toolstack from "./Toolstack";
 import WorkCards from "./WorkCards";
 import Resume from "./Resume";
-import triumfImg from "../../Assets/triumf.png"
-import piccoloImg from "../../Assets/piccolo.png"
-import clancysImg from "../../Assets/clancys.png"
+import triumfImg from "../../Assets/triumf.webp"
+import piccoloImg from "../../Assets/piccolo.webp"
+import clancysImg from "../../Assets/clancys.webp"
 
 function Work() {
   return (
