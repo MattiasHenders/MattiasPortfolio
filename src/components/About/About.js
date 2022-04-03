@@ -16,17 +16,17 @@ function About() {
             </h1>
             <p className="home-about-body">
               
-              My field of Interest's are building server-side solutions. &nbsp;
+              My passion is building server-side solutions, &nbsp;
               <i>
-                <b className="red">API Endpoints </b> built with MERN.{" "}
+                <b className="red">RESTful API's </b> built using MERN, and{" "}
                 <b className="red">
                   Lightweight Linux Servers
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing business products
-              with <b className="red">Express.js</b> and
+              Whenever possible, I also apply my passion for developing business 
+              oriented products with <b className="red">Express.js</b> and
               <i>
                 <b className="red">
                   {" "}
