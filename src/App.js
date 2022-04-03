@@ -6,6 +6,8 @@ import React, { useState, useEffect } from "react";
 // import Projects from "./components/Projects/Projects";
 // import Footer from "./components/Footer";
 // import Resume from "./components/Work/Resume";
+import Preloader from "../src/components/Pre";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -16,7 +18,6 @@ import {
 import loadable from '@loadable/component'
 // const React = loadable(() => import("react"));
 // const { useState, useEffect } = loadable(() => import("react"));
-const Preloader = loadable(() => import("../src/components/Pre"));
 const Navbar = loadable(() => import("./components/Navbar"));
 const Home = loadable(() => import("./components/Home/Home"));
 const Work = loadable(() => import("./components/Work/Work"));
