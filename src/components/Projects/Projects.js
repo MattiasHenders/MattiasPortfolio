@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import popImg from "../../Assets/Projects/plentyOfPhish.webp";
-import springOutImg from "../../Assets/Projects/springOut.webp";
-import voipImg from "../../Assets/Projects/voip.webp";
+import popImg from "../../Assets/Projects/plentyOfPhish.png";
+import springOutImg from "../../Assets/Projects/springOut.jpg";
+import voipImg from "../../Assets/Projects/voip.jpg";
 
 function Projects() {
   return (

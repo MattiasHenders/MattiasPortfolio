@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
 import EducationCards from "./EducationCards";
-import bcitImg from "../../Assets/bcit.webp";
+import bcitImg from "../../Assets/bcit.png";
 
 function Education() {
   return (

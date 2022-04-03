@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myPng from "../../Assets/avatar_1.webp";
+import myPng from "../../Assets/avatar.png";
 import AboutCard from "./AboutCard";
 import Particle from "../Particle";
 
