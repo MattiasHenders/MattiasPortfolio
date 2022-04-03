@@ -73,7 +73,7 @@ function NavBar() {
                   document.getElementById('work').scrollIntoView();  
                 }}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Work Experience
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Work
               </Nav.Link>
             </Nav.Item>
 

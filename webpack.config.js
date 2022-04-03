@@ -17,11 +17,12 @@ module.exports = ({ mode } = { mode: "production" }) => {
             hot: true,
             open: true
         },
-        output: {
-            publicPath: "/",
-            path: path.resolve(__dirname, "build"),
-            filename: "bundle.js"
-        },
+        output:
+            {
+                publicPath: "/",
+                path: path.resolve(__dirname, "build"),
+                filename: "bundle.js"
+            },
         module: {
             rules: [
                 {

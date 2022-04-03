@@ -1,16 +1,13 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { Container, Row, Col } from "react-bootstrap";
-import { ImPointRight } from "react-icons/im";
-
-import workoutPng from "../../Assets/about.svg";
 import {
   AiFillGithub,
   AiFillInstagram,
 } from "react-icons/ai";
-
 import { FaLinkedinIn } from "react-icons/fa";
-
+import { ImPointRight } from "react-icons/im";
+import workoutPng from "../../Assets/about.svg";
 
 function AboutCard() {
   return (
@@ -62,6 +59,7 @@ function AboutCard() {
             <li className="social-icons">
               <a
                 href="https://github.com/MattiasHenders"
+                aria-label="Github"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
@@ -73,6 +71,7 @@ function AboutCard() {
               <a
                 href="https://www.linkedin.com/in/mattias-henders/"
                 target="_blank"
+                aria-label="LinkedIn"
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
               >
@@ -82,6 +81,7 @@ function AboutCard() {
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/_.mattias._/"
+                aria-label="Instagram"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour home-social-icons"

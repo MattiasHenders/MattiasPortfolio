@@ -13,10 +13,10 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Mattias Henders</h3>
+          <span>Designed and Developed by Mattias Henders</span>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} MH</h3>
+          <span>Copyright © {year} MH</span>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -24,6 +24,7 @@ function Footer() {
               <a
                 href="https://github.com/MattiasHenders"
                 style={{ color: "white" }}
+                aria-label="Github"
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -34,6 +35,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/mattias-henders/"
                 style={{ color: "white" }}
+                aria-label="LinkedIn"
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -44,6 +46,7 @@ function Footer() {
               <a
                 href="https://www.instagram.com/_.mattias._/"
                 style={{ color: "white" }}
+                aria-label="Instagram"
                 target="_blank" 
                 rel="noopener noreferrer"
               >

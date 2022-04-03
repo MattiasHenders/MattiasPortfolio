@@ -1,12 +1,23 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
+// import Particle from "../Particle";
+// import Type from "./Type";
+// import Work from "../Work/Work";
+// import Projects from "../Projects/Projects";
+// import Education from "../Education/Education";
+// import About from "../About/About";
 import homeLogo from "../../Assets/home-main.svg";
-import Particle from "../Particle";
-import Type from "./Type";
-import Work from "../Work/Work";
-import Projects from "../Projects/Projects";
-import Education from "../Education/Education";
-import About from "../About/About";
+
+import loadable from '@loadable/component'
+// const React = loadable(() => import("react"));
+// const { Container, Row, Col } = loadable(() => import("react-bootstrap"));
+// const homeLogo = loadable(() => import("../../Assets/home-main.svg"));
+const Type = loadable(() => import("./Type"));
+const Particle = loadable(() => import("../Particle"));
+const Work = loadable(() => import("../Work/Work"));
+const Projects = loadable(() => import("../Projects/Projects"));
+const Education = loadable(() => import("../Education/Education"));
+const About = loadable(() => import("../About/About"));
 
 function Home() {
   return (

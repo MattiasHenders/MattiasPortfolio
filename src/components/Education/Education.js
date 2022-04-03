@@ -1,8 +1,16 @@
+//import EducationCards from "./EducationCards";
+//import { Col, Container, Row } from "react-bootstrap";
+//import Particle from "../Particle";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Particle from "../Particle";
-import EducationCards from "./EducationCards";
 import bcitImg from "../../Assets/bcit.webp";
+
+import loadable from '@loadable/component'
+// const React = loadable(() => import("react"));
+// const { Col, Container, Row } = loadable(() => import("react-bootstrap"));
+const Particle = loadable(() => import("../Particle"));
+const EducationCards = loadable(() => import("./EducationCards"));
+// const bcitImg = loadable(() => import("../../Assets/bcit.webp"));
 
 function Education() {
   return (

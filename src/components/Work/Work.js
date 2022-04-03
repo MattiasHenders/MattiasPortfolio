@@ -1,13 +1,25 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Particle from "../Particle";
-import Techstack from "./Techstack";
-import Toolstack from "./Toolstack";
-import WorkCards from "./WorkCards";
-import Resume from "./Resume";
+// import Particle from "../Particle";
 import triumfImg from "../../Assets/triumf.webp"
 import piccoloImg from "../../Assets/piccolo.webp"
 import clancysImg from "../../Assets/clancys.webp"
+// import Techstack from "./Techstack";
+// import Toolstack from "./Toolstack";
+// import WorkCards from "./WorkCards";
+// import Resume from "./Resume";
+
+import loadable from '@loadable/component'
+// const React = loadable(() => import("react"));
+// const { Col, Container, Row } = loadable(() => import("react-bootstrap"));
+const Techstack = loadable(() => import("./Techstack"));
+const Toolstack = loadable(() => import("./Toolstack"));
+const WorkCards = loadable(() => import("./WorkCards"));
+const Resume = loadable(() => import("./Resume"));
+const Particle = loadable(() => import("../Particle"));
+// const triumfImg = loadable(() => import("../../Assets/triumf.webp"));
+// const piccoloImg = loadable(() => import("../../Assets/piccolo.webp"));
+// const clancysImg = loadable(() => import("../../Assets/clancys.webp"));
 
 function Work() {
   return (
