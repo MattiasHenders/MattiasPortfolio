@@ -35,8 +35,8 @@ function Projects() {
               title="Spring Out"
               description="Spring Out provides a discrete solution for employees suffering from new 
               (and old) domestic abuse situations across Canada as a result of being isolated/quarantined, 
-              WFH to find resources and connect discreetly. Winner of the 2020 Together Vs. Hackathon. Recieved 
-              the BCIT Excelence in Data Anyltics Award."
+              WFH to find resources and connect discreetly. Winner of the 2020 Together Vs. Hackathon. Received 
+              the BCIT Excellence in Data Analytics Award."
               link="https://devpost.com/software/springout"
             />
           </Col>
